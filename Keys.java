@@ -5,13 +5,13 @@ import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
 
 public class Keys implements KeyListener {
-	private Game game;
+	private Run game;
 	private int x, y, size, speed;
 	private String charId, dir;
 	private Character character;
 	protected BufferedImage image;
 
-	public Keys(Character character, String charId, Game game) {
+	public Keys(Character character, String charId, Run game) {
 		character = this.character;
 		this.game = game;
 		this.charId = charId;
